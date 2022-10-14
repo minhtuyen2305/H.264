@@ -1,0 +1,46 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: The property "IntermediateOutputPath" is being set to a value for the first time, but it was already consumed at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(30,5): warning MSB4211: The property "DebugType" is being set to a value for the first time, but it was already consumed at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (29,5)".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(373,5): warning MSB4211: The property "CleanFile" is being set to a value for the first time, but it was already consumed at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+  annexb.c
+  biaridecod.c
+  block.c
+  cabac.c
+  context_ini.c
+  erc_api.c
+  erc_do_i.c
+  erc_do_p.c
+  errorconcealment.c
+  filehandle.c
+  fmo.c
+  header.c
+  image.c
+  ldecod.c
+  leaky_bucket.c
+  loopFilter.c
+  macroblock.c
+  mbuffer.c
+  mb_access.c
+  mc_prediction.c
+  Generating Code...
+  Compiling...
+  memalloc.c
+  nal.c
+  nalu.c
+  nalucommon.c
+  nal_part.c
+  output.c
+  parset.c
+  parsetcommon.c
+  rtp.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(18611,19): error C2143: syntax error: missing ':' before 'constant'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(18611,22): error C2143: syntax error: missing ';' before ':'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(18611,22): error C2059: syntax error: ':'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(18612,29): error C2143: syntax error: missing '{' before ':'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(18612,29): error C2059: syntax error: ':'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(18613,9): error C2059: syntax error: '}'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(18614,5): error C2059: syntax error: '}'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(18615,1): error C2059: syntax error: '}'
+  sei.c
+  transform8x8.c
+  vlc.c
+  Generating Code...

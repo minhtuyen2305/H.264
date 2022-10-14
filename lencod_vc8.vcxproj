@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>lencod</ProjectName>
+    <ProjectGuid>{9A39F1B7-3DFE-4263-8C02-8070F7D99AFA}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.32002.118</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\bin</OutDir>
+    <IntDir>.\bin</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\lencod\Release_vc8\</OutDir>
+    <IntDir>.\lencod\Release_vc8\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <TypeLibraryName>.\lencod/Debug_vc8/lencod.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>lencod/inc;lcommon/inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>.\lencod/Debug_vc8/lencod.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\lencod/Debug_vc8/</AssemblerListingLocation>
+      <ObjectFileName>.\lencod/Debug_vc8/</ObjectFileName>
+      <ProgramDataBaseFileName>.\lencod/Debug_vc8/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>./bin/lencod.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\lencod/Debug_vc8/lencod.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <TypeLibraryName>.\lencod\Release_vc8/lencod.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>lencod\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;DEBUG;_CONSOLE;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>.\lencod\Release_vc8/lencod.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\lencod\Release_vc8/</AssemblerListingLocation>
+      <ObjectFileName>.\lencod\Release_vc8/</ObjectFileName>
+      <ProgramDataBaseFileName>.\lencod\Release_vc8/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/FIXED:NO %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>./bin/lencod.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\lencod\Release_vc8/lencod.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="lencod\src\annexb.c" />
+    <ClCompile Include="lencod\src\biariencode.c" />
+    <ClCompile Include="lencod\src\block.c" />
+    <ClCompile Include="lencod\src\cabac.c" />
+    <ClCompile Include="lencod\src\configfile.c" />
+    <ClCompile Include="lencod\src\context_ini.c" />
+    <ClCompile Include="lencod\src\decoder.c" />
+    <ClCompile Include="lencod\src\explicit_gop.c" />
+    <ClCompile Include="lencod\src\filehandle.c" />
+    <ClCompile Include="lencod\src\fmo.c" />
+    <ClCompile Include="lencod\src\header.c" />
+    <ClCompile Include="lencod\src\image.c" />
+    <ClCompile Include="lencod\src\img_chroma.c" />
+    <ClCompile Include="lencod\src\img_luma.c" />
+    <ClCompile Include="lencod\src\intrarefresh.c" />
+    <ClCompile Include="lencod\src\leaky_bucket.c" />
+    <ClCompile Include="lencod\src\lencod.c" />
+    <ClCompile Include="lencod\src\loopFilter.c" />
+    <ClCompile Include="lencod\src\macroblock.c" />
+    <ClCompile Include="lencod\src\mbuffer.c" />
+    <ClCompile Include="lencod\src\mb_access.c" />
+    <ClCompile Include="lencod\src\md_distortion.c" />
+    <ClCompile Include="lencod\src\md_high.c" />
+    <ClCompile Include="lencod\src\md_highfast.c" />
+    <ClCompile Include="lencod\src\md_highloss.c" />
+    <ClCompile Include="lencod\src\md_low.c" />
+    <ClCompile Include="lencod\src\memalloc.c" />
+    <ClCompile Include="lencod\src\me_distortion.c" />
+    <ClCompile Include="lencod\src\me_epzs.c" />
+    <ClCompile Include="lencod\src\me_fullfast.c" />
+    <ClCompile Include="lencod\src\me_fullsearch.c" />
+    <ClCompile Include="lencod\src\me_umhex.c" />
+    <ClCompile Include="lencod\src\me_umhexsmp.c" />
+    <ClCompile Include="lencod\src\mode_decision.c" />
+    <ClCompile Include="lencod\src\mv-search.c" />
+    <ClCompile Include="lencod\src\nal.c" />
+    <ClCompile Include="lencod\src\nalu.c" />
+    <ClCompile Include="lencod\src\nalucommon.c" />
+    <ClCompile Include="lencod\src\output.c" />
+    <ClCompile Include="lencod\src\parset.c" />
+    <ClCompile Include="lencod\src\parsetcommon.c" />
+    <ClCompile Include="lencod\src\q_matrix.c" />
+    <ClCompile Include="lencod\src\q_offsets.c" />
+    <ClCompile Include="lencod\src\ratectl.c" />
+    <ClCompile Include="lencod\src\rc_quadratic.c" />
+    <ClCompile Include="lencod\src\rdopt.c" />
+    <ClCompile Include="lencod\src\rdopt_coding_state.c" />
+    <ClCompile Include="lencod\src\rdpicdecision.c" />
+    <ClCompile Include="lencod\src\refbuf.c" />
+    <ClCompile Include="lencod\src\rtp.c" />
+    <ClCompile Include="lencod\src\sei.c" />
+    <ClCompile Include="lencod\src\slice.c" />
+    <ClCompile Include="lencod\src\symbol.c" />
+    <ClCompile Include="lencod\src\transform.c" />
+    <ClCompile Include="lencod\src\transform8x8.c" />
+    <ClCompile Include="lencod\src\vlc.c" />
+    <ClCompile Include="lencod\src\weighted_prediction.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lencod\inc\annexb.h" />
+    <ClInclude Include="lencod\inc\biariencode.h" />
+    <ClInclude Include="lencod\inc\block.h" />
+    <ClInclude Include="lencod\inc\cabac.h" />
+    <ClInclude Include="lencod\inc\configfile.h" />
+    <ClInclude Include="lencod\inc\context_ini.h" />
+    <ClInclude Include="lencod\inc\contributors.h" />
+    <ClInclude Include="lencod\inc\ctx_tables.h" />
+    <ClInclude Include="lencod\inc\defines.h" />
+    <ClInclude Include="lencod\inc\elements.h" />
+    <ClInclude Include="lencod\inc\explicit_gop.h" />
+    <ClInclude Include="lencod\inc\fmo.h" />
+    <ClInclude Include="lencod\inc\global.h" />
+    <ClInclude Include="lencod\inc\header.h" />
+    <ClInclude Include="lencod\inc\ifunctions.h" />
+    <ClInclude Include="lencod\inc\image.h" />
+    <ClInclude Include="lencod\inc\img_chroma.h" />
+    <ClInclude Include="lencod\inc\img_luma.h" />
+    <ClInclude Include="lencod\inc\intrarefresh.h" />
+    <ClInclude Include="lencod\inc\leaky_bucket.h" />
+    <ClInclude Include="lencod\inc\macroblock.h" />
+    <ClInclude Include="lencod\inc\mbuffer.h" />
+    <ClInclude Include="lencod\inc\mb_access.h" />
+    <ClInclude Include="lencod\inc\memalloc.h" />
+    <ClInclude Include="lencod\inc\me_distortion.h" />
+    <ClInclude Include="lencod\inc\me_epzs.h" />
+    <ClInclude Include="lencod\inc\me_fullfast.h" />
+    <ClInclude Include="lencod\inc\me_fullsearch.h" />
+    <ClInclude Include="lencod\inc\me_umhex.h" />
+    <ClInclude Include="lencod\inc\me_umhexsmp.h" />
+    <ClInclude Include="lencod\inc\minmax.h" />
+    <ClInclude Include="lencod\inc\mode_decision.h" />
+    <ClInclude Include="lencod\inc\mv-search.h" />
+    <ClInclude Include="lencod\inc\nalu.h" />
+    <ClInclude Include="lencod\inc\nalucommon.h" />
+    <ClInclude Include="lencod\inc\output.h" />
+    <ClInclude Include="lencod\inc\parset.h" />
+    <ClInclude Include="lencod\inc\parsetcommon.h" />
+    <ClInclude Include="lencod\inc\q_matrix.h" />
+    <ClInclude Include="lencod\inc\q_offsets.h" />
+    <ClInclude Include="lencod\inc\ratectl.h" />
+    <ClInclude Include="lencod\inc\rc_quadratic.h" />
+    <ClInclude Include="lencod\inc\rdopt_coding_state.h" />
+    <ClInclude Include="lencod\inc\refbuf.h" />
+    <ClInclude Include="lencod\inc\rtp.h" />
+    <ClInclude Include="lencod\inc\sei.h" />
+    <ClInclude Include="lencod\inc\symbol.h" />
+    <ClInclude Include="lencod\inc\transform.h" />
+    <ClInclude Include="lencod\inc\transform8x8.h" />
+    <ClInclude Include="lencod\inc\vlc.h" />
+    <ClInclude Include="lencod\inc\win32.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\encoder.cfg" />
+    <None Include="bin\encoder_yuv422.cfg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5257d6b9-7477-4567-9686-46185d3cd13e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c5071320-ad88-44d7-92b1-730381c7e7e8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lencod\src\annexb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\biariencode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\block.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\cabac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\configfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\context_ini.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\decoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\explicit_gop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\filehandle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\fmo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\img_chroma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\img_luma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\intrarefresh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\leaky_bucket.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\lencod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\loopFilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\macroblock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\mb_access.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\mbuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\md_distortion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\md_high.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\md_highfast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\md_highloss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\md_low.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\me_distortion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\me_epzs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\me_fullfast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\me_fullsearch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\me_umhex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\me_umhexsmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\memalloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\mode_decision.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\mv-search.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\nal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\nalu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\nalucommon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\output.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\parset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\parsetcommon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\q_matrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\q_offsets.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\ratectl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\rc_quadratic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\rdopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\rdopt_coding_state.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\rdpicdecision.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\refbuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\rtp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\sei.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\slice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\symbol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\transform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\transform8x8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\vlc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lencod\src\weighted_prediction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lencod\inc\annexb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\biariencode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\cabac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\configfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\context_ini.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\contributors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\ctx_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\elements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\explicit_gop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\fmo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\ifunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\img_chroma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\img_luma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\intrarefresh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\leaky_bucket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\macroblock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\mb_access.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\mbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\me_distortion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\me_epzs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\me_fullfast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\me_fullsearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\me_umhex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\me_umhexsmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\memalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\minmax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\mode_decision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\mv-search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\nalu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\nalucommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\parset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\parsetcommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\q_matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\q_offsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\ratectl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\rc_quadratic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\rdopt_coding_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\refbuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\rtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\sei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\symbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\transform8x8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\vlc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lencod\inc\win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\encoder.cfg" />
+    <None Include="bin\encoder_yuv422.cfg" />
+  </ItemGroup>
+</Project>
